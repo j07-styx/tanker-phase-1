@@ -1,0 +1,428 @@
+{
+ "bench": "tanker",
+ "adapter": "adapters.mine:MineSolver",
+ "budget_scale": 1.0,
+ "records": [
+  {
+   "name": "tanker-01",
+   "family": "uniform",
+   "shifted": false,
+   "size": 40,
+   "digest": "6585d96562746073",
+   "adapter": "adapters.mine:MineSolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.001933,
+     6528
+    ],
+    [
+     0.122838,
+     6325
+    ]
+   ],
+   "checkpoint_costs": [
+    6325,
+    6325,
+    6325,
+    6325
+   ],
+   "final_cost": 6325,
+   "accepted": 3,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.614
+  },
+  {
+   "name": "tanker-02",
+   "family": "uniform",
+   "shifted": false,
+   "size": 70,
+   "digest": "4339088008a4f82f",
+   "adapter": "adapters.mine:MineSolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.006255,
+     10455
+    ],
+    [
+     0.128542,
+     9865
+    ],
+    [
+     0.462568,
+     9852
+    ],
+    [
+     0.702094,
+     9802
+    ],
+    [
+     0.824358,
+     9799
+    ],
+    [
+     0.949167,
+     9742
+    ]
+   ],
+   "checkpoint_costs": [
+    9865,
+    9742,
+    9742,
+    9742
+   ],
+   "final_cost": 9742,
+   "accepted": 7,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.626
+  },
+  {
+   "name": "tanker-03",
+   "family": "uniform",
+   "shifted": false,
+   "size": 110,
+   "digest": "98b516fe635c2ae2",
+   "adapter": "adapters.mine:MineSolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.019231,
+     12245
+    ],
+    [
+     0.141168,
+     11384
+    ],
+    [
+     0.261542,
+     11357
+    ],
+    [
+     0.383424,
+     11299
+    ],
+    [
+     0.617425,
+     11298
+    ],
+    [
+     2.175778,
+     11286
+    ],
+    [
+     2.296325,
+     11271
+    ],
+    [
+     2.660865,
+     11264
+    ]
+   ],
+   "checkpoint_costs": [
+    11357,
+    11298,
+    11264,
+    11264
+   ],
+   "final_cost": 11264,
+   "accepted": 9,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.64
+  },
+  {
+   "name": "tanker-04",
+   "family": "uniform",
+   "shifted": false,
+   "size": 150,
+   "digest": "13345f098aa96a56",
+   "adapter": "adapters.mine:MineSolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.022468,
+     16021
+    ],
+    [
+     0.146624,
+     14633
+    ],
+    [
+     0.278728,
+     14627
+    ],
+    [
+     0.398783,
+     14570
+    ],
+    [
+     0.519824,
+     14448
+    ],
+    [
+     0.747526,
+     14420
+    ],
+    [
+     0.869841,
+     14308
+    ],
+    [
+     1.239025,
+     14222
+    ],
+    [
+     1.657965,
+     14210
+    ],
+    [
+     1.778305,
+     14164
+    ],
+    [
+     1.898474,
+     14108
+    ]
+   ],
+   "checkpoint_costs": [
+    14627,
+    14308,
+    14108,
+    14108
+   ],
+   "final_cost": 14108,
+   "accepted": 12,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.608
+  },
+  {
+   "name": "tanker-05",
+   "family": "clustered-tight",
+   "shifted": true,
+   "size": 60,
+   "digest": "6bf5303dc8dbb2e0",
+   "adapter": "adapters.mine:MineSolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.004042,
+     11182
+    ],
+    [
+     0.124598,
+     10564
+    ],
+    [
+     0.364744,
+     10533
+    ],
+    [
+     0.521479,
+     10523
+    ],
+    [
+     0.642223,
+     10517
+    ],
+    [
+     0.846624,
+     10504
+    ],
+    [
+     1.173699,
+     10503
+    ],
+    [
+     1.29441,
+     10488
+    ],
+    [
+     1.518769,
+     10468
+    ],
+    [
+     1.639047,
+     10447
+    ],
+    [
+     1.936826,
+     10440
+    ],
+    [
+     2.057501,
+     10408
+    ],
+    [
+     2.535487,
+     10395
+    ],
+    [
+     2.656781,
+     10391
+    ],
+    [
+     2.790045,
+     10382
+    ],
+    [
+     2.911033,
+     10372
+    ],
+    [
+     4.686064,
+     10369
+    ],
+    [
+     4.80753,
+     10356
+    ]
+   ],
+   "checkpoint_costs": [
+    10564,
+    10503,
+    10372,
+    10356
+   ],
+   "final_cost": 10356,
+   "accepted": 19,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.609
+  },
+  {
+   "name": "tanker-06",
+   "family": "clustered-tight",
+   "shifted": true,
+   "size": 120,
+   "digest": "2d27d5c5056ab14e",
+   "adapter": "adapters.mine:MineSolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.014174,
+     21785
+    ],
+    [
+     0.135284,
+     21208
+    ],
+    [
+     0.815469,
+     21168
+    ],
+    [
+     0.936961,
+     21085
+    ],
+    [
+     1.699602,
+     21001
+    ],
+    [
+     1.821201,
+     20888
+    ],
+    [
+     1.943536,
+     20767
+    ],
+    [
+     2.064804,
+     20763
+    ],
+    [
+     2.362557,
+     20753
+    ],
+    [
+     2.48309,
+     20719
+    ],
+    [
+     2.777806,
+     20714
+    ],
+    [
+     2.899857,
+     20709
+    ],
+    [
+     4.061349,
+     20707
+    ],
+    [
+     4.183234,
+     20704
+    ],
+    [
+     4.920752,
+     20703
+    ],
+    [
+     5.042745,
+     20649
+    ],
+    [
+     5.166431,
+     20647
+    ],
+    [
+     5.287679,
+     20646
+    ]
+   ],
+   "checkpoint_costs": [
+    21208,
+    21085,
+    20709,
+    20646
+   ],
+   "final_cost": 20646,
+   "accepted": 19,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.61
+  }
+ ],
+ "points": {
+  "scores": {
+   "tanker-01": 1.0,
+   "tanker-02": 0.9876428571428572,
+   "tanker-03": 0.9944293846570886,
+   "tanker-04": 0.9798999411418481,
+   "tanker-05": 0.9119565217391306,
+   "tanker-06": 0.975406309751434
+  },
+  "family_means": {
+   "uniform": 0.9904930457354485,
+   "clustered-tight": 0.9436814157452823
+  },
+  "robustness_halved": false,
+  "quality": 68.24224183504418,
+  "robustness": 18.873628314905645,
+  "engineering": 10.0,
+  "total": 97.11587014994983
+ }
+}
